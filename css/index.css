@@ -77,8 +77,14 @@ body h2 {
 }
 
 .AboutMe video{
-margin-left:25%;
-width:50%;
+margin-left:35%;
+max-height:40%;
+z-index:4;
+visibility : visible;
+
+}
+#IntroductoryVideo{
+    border-width: 6px solid black;
 }
 .AboutMe h2{
     padding-top: 0%;
