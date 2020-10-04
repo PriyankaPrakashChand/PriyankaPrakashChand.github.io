@@ -1,0 +1,19 @@
+:root {
+    --pallete-shade-1: #fff0f0;
+    --pallete-shade-2: #ebd4d4;
+    --pallete-shade-3: #835858;
+    --pallete-shade-4: #463333;
+    }
+
+.checked {
+    
+    color: rgb(233, 84, 15);
+  }
+
+  .Skill tr:hover{
+      background-color:var(--pallete-shade-4) ;
+      color: var(--pallete-shade-1)
+  }
+ .Skill table{
+      border-collapse: collapse;
+  }

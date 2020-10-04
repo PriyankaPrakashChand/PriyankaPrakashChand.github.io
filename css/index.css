@@ -1,0 +1,191 @@
+:root {
+--pallete-shade-1: #fff0f0;
+--pallete-shade-2: #ebd4d4;
+--pallete-shade-3: #835858;
+--pallete-shade-4: #463333;
+}
+
+body {
+background-color: var(--pallete-shade-2);
+color: var(--pallete-shade-4);
+margin: 0;
+padding: 0;
+font-family: Tahoma;
+font-size: 110%;
+}
+
+body h2 {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+    font-size: 200%;
+    text-align: center;
+    }
+/*********************************************** image css *************************************/
+
+
+#Image{
+   
+   margin-left: 5%;
+   margin-top:5%;
+   
+    /* remove extra space below image */
+    
+}
+#Image{
+    margin:0;
+    padding:0;
+    background-image:linear-gradient(
+        rgba(198, 197, 221, 0.705), 
+        rgba(135, 133, 138, 0.3)
+      ), url("https://img.freepik.com/free-photo/programming-code-abstract-technology-background-software-developer-computer-script_34663-31.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Image img{
+   margin-left:57%;
+    max-width: 40%;
+    max-height: auto;
+    border-radius: 50%;
+    border-width: 100%;
+    border-style: inset;
+    margin-top:2%;
+    border-color: var(--pallete-shade-3);
+    
+
+     /* remove extra space below image */
+}
+#Image h2{
+    color:var(--pallete-shade-1);
+    background-color: rgba(135, 133, 138, 0.8);
+    font-size:350%;
+    width:60%;
+    margin-top:0%  
+    
+}
+
+
+/*********************************************** About Me css *************************************/
+.AboutMe{
+    font-family:  Tahoma;
+    padding:1%;
+    margin:3%;
+    margin-top:-2%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 130%;
+    width:90%
+}
+
+.AboutMe video{
+margin-left:25%;
+width:50%;
+}
+.AboutMe h2{
+    padding-top: 0%;
+}
+
+
+/*********************************************** contact css *************************************/
+
+.contact {
+background-color: var(--pallete-shade-3);
+color: var(--pallete-shade-2);
+}
+
+
+
+.contact table {
+margin: auto;
+align-self: center;
+text-align: left;
+border: 1% var(--pallete-shade-1);
+border-style: dashed;
+}
+
+.contact table td {
+padding: 1%;
+}
+
+#col1 {
+width: 40%;
+border-right: 2% var(--pallete-shade-1);
+}
+
+#col2 {
+width: 60%
+}
+
+.contact form input,
+textarea {
+border-width: 2%;
+border-color: var(--pallete-shade-2);
+}
+
+#msgField {
+width: auto;
+height: 50%;
+}
+
+#nameField {
+width: 25%;
+height: auto;
+}
+
+#SubmitInput {
+width: 25%;
+height: auto;
+background-color: var(--pallete-shade-2);
+color: var(--pallete-shade-3);
+font-size: 110%;
+/* border-color: var(--pallete-shade-3); */
+}
+
+#SubmitInput:hover{
+
+color: var(--pallete-shade-2);
+background-color: var(--pallete-shade-3);
+}
+/* ************************ Other Contacts************************ */
+
+    .OtherContacts {
+
+    align-self: center;
+
+
+
+
+    }
+
+    .OtherContacts ul {
+
+    list-style-type: none;
+
+
+
+    }
+
+    .OtherContacts ul li a {
+    margin-left: 30%;
+    text-decoration: none;
+    color: var(--pallete-shade-2);
+    font-size: 90%;
+
+    }
+
+
+    .OtherContacts hr {
+    width:50%;
+
+    color: var(--pallete-shade-2);
+    background-color: var(--pallete-shade-2);
+
+    }
+
+    .OtherContacts i {
+    font-size: 250%;
+    }
+
+    .OtherContacts p {
+    text-align: center;
+    font-size: 150%;
+    }

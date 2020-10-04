@@ -1,20 +1,109 @@
-<<!DOCTYPE html>
-    <html class="no-js">
+<!DOCTYPE html>
+<html class="no-js">
 
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Page | About Me</title>
+    <meta name="description" content="">
+    <link rel="icon" href= ".img\homeicon.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/commons.css">
+    <link rel="stylesheet" href="css/index.css">
 
-    <body>
+</head>
+
+<body>
+ <!-- *****************************************Nav Bar*******************************  -->
+    <div class="navbar">
+        <ul>
+            <li> <a href="index.html">About Me</a> </li>
+            <li> <a href="Academics.html">Academics</a></li>
+            <li> <a href="Projects.html">Projects </a></li>
+            <li><a href="Experience.html">Experience</a></li>
+        </ul>
+
+    </div>
+     <!-- *****************************************Image*******************************  -->
+    <div id="Image">
+       
+        <img src=".img/priyanka.jpg">
+        <header>
+        <h2 > Hello, I'm<br> Priyanka Prakash Chand.</h2>
+    </header>
+        <br>
+        <br>
+        
+    </div> 
+<div class="AboutMe">
+    <header>
+        <h2> About Me</h2> 
+    </header>
 
 
-        <script src="" async defer></script>
-    </body>
+<p>I am a a senior undergraduate student persuing a Bachelors in Computer Engineering.
+    Alongside being a technology enthusiast, I have  recently developed a
+    keen interest into the field of data science. I also like working in a team,as it helps me learn faster and much more. 
+    As the saying goes: <i>'Two heads are better than one'</i>. Browse my site to see all that I have to offer.
+  <br> <b> Dont Forget to watch the video just below! </b></p>
+    
+   <div id="IntroductoryVideo">
 
-    </html>
+        <video  controls>
+            <source src="https://www.youtube.com/watch?v=OyFvREdB1lE" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+    <!-- *****************************************Contact Form*******************************  -->
+    <div class="contact">
+
+        <h2> <i class="fa fa-envelope"></i> &nbsp CONTACT ME</h2>
+        <table>
+            <tr>
+                <td id="col1">
+                    <p> If you'd like to make an enquiry,<br>Please feel free to get in touch with <br> me and I will respond as soon as possible. </p>
+                </td>
+                <td id="col2">
+                    <Form action=mailto: "priyankaprakashchand@gmail.com" method="POST">
+
+                        <label for="SenderName" style=" font-size:110%;">Name:</label><br>
+                        <input class="NameInput" type="text" name="SenderName" id="nameField" placeholder="Your Name"> <br> <br>
+
+                        <label for="SenderMsg" style=" font-size:110%;">Message:</label> <br>
+                        <textarea type="text" name="SenderMsg" id="msgField" rows="6%" cols="50%" placeholder="Your Message..."></textarea><br> <br>
+                        <input id="SubmitInput" type="submit" value="Send Email">
+                </td>
+            </tr>
+        </table>
+        </Form>
+
+        <div class="OtherContacts">
+            <br>
+            <hr>
+            <header>
+            <h2> Connect with me on </h2></header>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/priyanka-prakash-chand-62530817a/"><i class="fa fa-linkedin-square"></i> &nbsp &nbsphttps://www.linkedin.com/in/priyanka-prakash-chand-62530817a/</a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://github.com/PriyankaPrakashChand"> <i class="fa fa-github-square"></i> &nbsp &nbsp https://github.com/PriyankaPrakashChand</a>
+                </li>
+
+            </ul>
+            <hr>
+            <br>
+        </div>
+    </div>
+
+
+    <footer><small>&copy; Priyanka Prakash Chand 2020</small></footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+:root {
+    --pallete-shade-1: #fff0f0;
+    --pallete-shade-2: #ebd4d4;
+    --pallete-shade-3: #835858;
+    --pallete-shade-4: #463333;
+    }
+
+
+
+body{
+    padding:0;
+    margin:0;
+    
+    color:var(--pallete-shade-4);
+    font-family: Tahoma;
+    font-size: 110%;  
+   
+}
+ .Academics{
+    background: linear-gradient(
+        rgba(151, 191, 228, 0.3),
+        rgba(247, 215, 215, 0.6), 
+        rgba(214, 170, 170, 0.5),
+        rgba(151, 191, 228, 0.3)
+      ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPYs2XABCE3fiuVf7-y_od9-38Az9nIarTtw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Experience{
+    background:linear-gradient(
+        rgba(151, 191, 228, 0.3), 
+        rgba(212, 158, 172, 0.3),
+        rgba(212, 158, 172, 0.2),
+        rgba(151, 191, 228, 0.3)
+
+      ), url("https://image.freepik.com/free-photo/brown-green-watercolor-texture-white-paper-background_7190-949.jpg");
+      
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 100% ;
+}
+
+.Projects{
+    
+    background: linear-gradient(
+       
+        rgba(247, 215, 215, 0.705), 
+        rgba(245, 228, 228, 0.8)
+        
+      ),url("https://i.pinimg.com/736x/da/8b/8c/da8b8cdcba0079f92e5469c48d1486e5.jpg");
+      background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-size: 800% 100%;
+}
+body h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    text-align: center;   
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    width:80%;
+
+    border-spacing:  50%;
+    border-style: ridge;
+    border-color: rgb(165, 110, 110);
+    border-width: 40%;  
+    
+}
+
+ b{
+    font-size:110%;
+}
+ td{
+
+  /* top | right | bottom | left */
+    padding: 1%  0% 1% 3%;
+     
+}
+.col1{
+    width:25%;
+    font-weight: bold;   
+}
+.col2{
+    width:75%;
+
+   
+    
+}
+i{
+    height:80%;
+    width: auto;
+}
+#expected{
+    font-weight: bold;
+    font-size: 90%;
+  
+}
+
